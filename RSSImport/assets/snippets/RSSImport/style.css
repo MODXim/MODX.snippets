@@ -1,0 +1,30 @@
+/***************RSS snippet****************/
+.rss_item, .twitter_item	{
+	padding: 10px;
+	margin: 0px 0px 20px 0px;
+	border: 1px dotted silver;
+	clear: both;
+}
+.rss_item a	{
+	color: black;
+}
+.rss_date	{
+	font-size: 80%;
+	float: right;
+	font-weight: normal;
+}
+.rss_header	{
+	font-weight: bold;
+}
+.rss_text	{
+	margin: 5px 0px 5px 20px;
+}
+.twitter_date	{
+	color: #0E6B87;
+	font-weight: bold;
+	margin: 0px 5px 0px 0px;
+	display: inline;
+}
+.twitter_item a, .twitter_item a:visited	{
+	text-decoration: none !important;
+}

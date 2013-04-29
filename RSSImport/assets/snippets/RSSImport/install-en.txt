@@ -1,0 +1,43 @@
+	==Installing
+
+- Enter in manager panel
+- Create a new snippet.
+- Call it like RSS or tmth.
+- Insert code from MODx-RSS.php in snippet code.
+- Save
+
+	==Using snippet
+
+=Simpe use:
+[[RSS? &url=`http://rss-url`]]
+
+This prints last 10 items from rss-url using default template.
+
+=Fullest use:
+[[RSS? &url=`http://rss-url,,http://another-rss-url` &num=`5` &tpl=`rss-output` &more=`learn more...` &dateFormat=`%d.%m.%Y` &cacheAge=`60` ]]
+
+Prints last 5 items from rss-url and another-rss-url using chunk named 'rss-output' as template and string 'learn more...' as more-link. Have date formatting and caching output for 1 minute. Items from different feeds merges and sortes by date.
+
+	=Supported params
+
+url - required. Contents http url of feed or double-comma separated urls of feeds. Like: "http://url.com,,http://another-url.com,,http://yet-another-url.com"
+tpl - name of template chunk
+more - "more"-link text
+num - number of outputing items
+dateFormat - format of outputing date for php function strftime
+cacheAge - age of cache in seconds. If empty - no caching.
+
+	=Template placeholders
+
+[+date+] - formatted date of item
+[+title+] - title of item
+[+text+] - contents of item without CDATA
+[+link+] - link of item (to original)
+[+more+] - text of link "more" or some else text
+[+feed_title+] - title of feed
+[+feed_link+] - link of feed
+[+feed_description+] - description of feed
+
+==================================================
+Author: Smirnov Sergey aka Ifman
+Snippet page: http://dayte2.com/?act=state&num=174

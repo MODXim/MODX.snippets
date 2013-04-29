@@ -1,0 +1,27 @@
+.weather_outer	{
+	color: #000;
+	border: 1px solid #000;
+	padding: 5px 10px;
+	width:200px;
+}
+.w_out_text	{
+	text-align:center;
+	padding: 0px 0px 0px 42px;
+}
+.w_town, .w_temp	{
+	font-weight: bold;
+	font-size: 200%;
+	line-height: 100%;
+}
+.w_backlink	{
+	display: block;
+	margin: 5px 0px 0px 0px;
+	font-size: 80%;
+	clear: both;
+	text-align: right;
+	color: gray;
+}
+.w_ico	{
+	float: left;
+	margin: 25px -32px 0px 0px;
+}

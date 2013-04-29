@@ -1,0 +1,22 @@
+.weather_outer	{
+	color: #588330;
+	text-align:center;
+	border: 1px dashed silver;
+	padding: 10px;
+	width:200px;
+}
+.w_town	{
+	font-weight: bold;
+	font-size: 200%;
+	line-height: 100%;
+}
+.w_temp	{
+	font-weight: bold;
+	font-size: 200%;
+	line-height: 100%;
+}
+.weather_backlink	{
+	display: block;
+	margin: 5px 0px 0px 0px;
+	font-size: 80%;
+}

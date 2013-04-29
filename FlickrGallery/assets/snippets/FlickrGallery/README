@@ -1,0 +1,32 @@
+Instructions:
+
+# Installation
+
+- Upload the files into **assets/snippets/flickrGallery**
+- Create a snippet called **flickrGallery**
+- Paste this code into the snippet contents **include($modx->config['base_path'] . "assets/snippets/flickrGallery/modx.flickr.php"); **
+
+# Snippet call
+
+- &action: list, photos, galleries
+- &email: the email associated with the user (is used to get a list of their galleries)
+- &tpl: any php file in the flickrGallery/template/ directory (without the php)
+- $debug: this isnt used yet
+- &gallery: this is the photosetId of the gallery
+- &parents: used with action=`galleries`. Acts like ditto to return the info for each document
+
+# How I use this
+
+## In the modx manager
+
+- Create a TV called GalleryID (This will return a string with the GalleryID and Title for each of the users gallery)
+-- Input Type: Radio Options
+-- Input Option Values: @EVAL return $modx->runSnippet('flickrGallery', array('action' => 'list', 'email' => 'youremail@yahoo.com') );
+-- Assign it to your document
+- On the gallery page, select your Gallery from the radio list
+
+## To show the galleries
+- To show the photo gallery: [[flickrGallery? &gallery=`[*GalleryID*]` &tpl=`default` &action=`photos` ]]
+- To show the galleries: [[flickrGallery? &gallery=`[*GalleryID*]` &tpl=`galleries` &action=`galleries` ]]
+
+

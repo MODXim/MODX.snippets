@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+    <head>
+        <title>Начинается загрузка файла :: [(site_name)]</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=[(modx_charset)]" />
+        <base href="[(site_url)]" />
+        <meta name="keywords" content="[*kw*]" />
+        <meta name="description" content="[*descr*]" />
+        <meta http-equiv="refresh" content="5; url=[!getFileUrl!]" />
+        <link rel="stylesheet" href="assets/templates/soft/style.css" type="text/css" media="screen" />
+        <!--[if IE]><link rel="stylesheet" href="assets/templates/soft/ie.css" type="text/css" media="screen" /><![endif]-->
+    </head>
+    <body>  
+        <table class="download">
+            <tr>
+                <td>
+                    <h5>Загрузка программы начнется через 5 секунд. Если этого не произошло, то нажмите <a href="[!getFileUrl!]">здесь</a>.</h5>
+                    [*content*]
+                </td>
+           </tr>
+        </table>
+    </body>
+</html>

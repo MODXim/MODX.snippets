@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* reset default style */
+div.doclink, div.doclink * { list-style: none outside !important; margin: 0 !important; padding: 0 !important; border: 0 none !important; color: inherit !important; background: transparent !important; font-size: 100% !important; font-style: normal !important; font-weight: normal !important; font-variant: normal !important; text-align: left !important; text-decoration: none !important; text-indent: 0 !important; vertical-align: baseline !important; }
+
+div.doclink {
+  margin: 1.5em 8px !important;
+  padding: 8px !important;
+  color: #fff !important;
+  background: #333 !important;
+  font-size: 90% !important;
+}
+
+div.doclink ul {
+  text-align: center !important;
+}
+
+div.doclink ul li {
+  margin: 0 4px !important;
+  display: inline !important;
+}
+
+div.doclink ul li.enabled {
+  color: #fff !important;
+}
+
+div.doclink ul li.disabled {
+  color: #888 !important;
+}
+
+div.doclink ul li a,
+div.doclink ul li a:link,
+div.doclink ul li a:visited {
+  padding: 1px 3px !important;
+  border: 1px solid #333 !important;
+  color: #fff !important;
+  background: #333 !important;
+}
+
+div.doclink ul li a:hover,
+div.doclink ul li a:focus,
+div.doclink ul li a:active {
+  padding: 1px 3px !important;
+  border: 1px solid #c80 !important;
+  color: #fff !important;
+  background: #c60 !important;
+}
+
+div.doclink p {
+  margin: 0.5em 0 0 !important;
+  color: #ccc !important;
+  text-align: right !important;
+}

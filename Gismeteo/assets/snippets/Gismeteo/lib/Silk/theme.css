@@ -1,0 +1,41 @@
+.weather_outer	{
+	color: gray;
+	border: 1px dotted silver;
+	padding: 2px;
+	width: 200px;
+	text-align: center;
+}
+.w_town	{
+	font-weight: bold;
+	font-size: 12px;
+	margin: 5px 0px;
+}
+.w_backlink	{
+	display: block;
+	margin: 5px 0px 0px 0px;
+	font-size: 80%;
+	clear: both;
+	color: gray;
+	text-decoration: none !important;
+}
+.w_ico	{
+	display: inline;
+	vertical-align: bottom;
+}
+.weather_table, .weather_table tr, .weather_table tr td	{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+.w_tod	{
+	width: 85px;
+	text-align: right;
+}
+.w_out_ico	{
+	text-align: right;
+	width: 26px;
+}
+.w_right	{
+	padding-left: 10px !important;
+	font-weight: bold;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div.doclink {
+  margin: 1em 8px !important;
+  padding: 0 !important;
+}
+
+div.doclink ul,
+div.doclink ul li {
+  list-style: none outside !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+div.doclink ul {
+  text-align: center !important;
+}
+
+div.doclink ul li {
+  margin: 0 8px !important;
+  display: inline !important;
+}
+
+div.doclink p {
+  margin: 0.5em 0 0 !important;
+  padding: 0 !important;
+  text-align: right !important;
+}
